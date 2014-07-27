@@ -2,7 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
-## Start From Here :
+## My Code Start From Here :
 
 ## Creates a special matrix object that can cache its inverse
 makeCacheMatrix <- function( m = matrix() ) {
@@ -60,6 +60,6 @@ cacheSolve <- function(x, ...) {
   ## Set the inverse to the object
   x$setInverse(m)
   
-  ## Return the matrix
+  ## Return the matrix that we want
   m
 }
